@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="FileOpenIcon.png">Icons/MenuBar/File Menu/OpenFile.png</file>
+        <file alias="FileCloseIcon.png">Icons/MenuBar/File Menu/CloseFile.png</file>
+        <file alias="EnterFullscreenIcon.png">Icons/MenuBar/Window Menu/EnterFullscreen.png</file>
+        <file alias="MinimiseScreenIcon.png">Icons/MenuBar/Window Menu/MinimiseScreen.png</file>
+        <file alias="RestoreScreenIcon.png">Icons/MenuBar/Window Menu/RestoreScreen.png</file>
+        <file alias="SaveFileIcon.png">Icons/MenuBar/File Menu/SaveFile.png</file>
+        <file alias="MaximiseScreenIcon.png">Icons/MenuBar/Window Menu/MaximiseScreen.png</file>
+        <file alias="DiscardChangesAndExit.png">Icons/MenuBar/Exit Menu/DiscardChangesAndExit.png</file>
+        <file alias="SaveChangesAndExit.png">Icons/MenuBar/Exit Menu/SaveChangesAndExit.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['on_5factionascii_5fview_5ftriggered_35',['on_actionAscii_View_triggered',['../classStaticFileAnalyser.html#af8a2dbbaa5f85edceeba6ea91860a42c',1,'StaticFileAnalyser']]],
+  ['on_5factionbinary_5fview_5ftriggered_36',['on_actionBinary_View_triggered',['../classStaticFileAnalyser.html#a3b8ace440c1487cd75c71fbb80ca6c9d',1,'StaticFileAnalyser']]],
+  ['on_5factionclose_5ftriggered_37',['on_actionClose_triggered',['../classStaticFileAnalyser.html#a57e762049731c8f3f3bc802db73b51a0',1,'StaticFileAnalyser']]],
+  ['on_5factiondisassembled_5fview_5ftriggered_38',['on_actionDisassembled_View_triggered',['../classStaticFileAnalyser.html#a97d0264a642e7237504013de601b030a',1,'StaticFileAnalyser']]],
+  ['on_5factiondiscard_5fchanges_5fand_5fexit_5ftriggered_39',['on_actionDiscard_changes_and_Exit_triggered',['../classStaticFileAnalyser.html#adbf3dda1833b06d0cf2106e886daf023',1,'StaticFileAnalyser']]],
+  ['on_5factionenable_5fediting_5ftoggled_40',['on_actionEnable_Editing_toggled',['../classStaticFileAnalyser.html#a396bdec7a0dd9e5c66e17f5e434768ff',1,'StaticFileAnalyser']]],
+  ['on_5factionfile_5fproperties_5ftriggered_41',['on_actionFile_Properties_triggered',['../classStaticFileAnalyser.html#a13f587e995ff21152a09382d732c6ed0',1,'StaticFileAnalyser']]],
+  ['on_5factionfullscreen_5ftriggered_42',['on_actionFullscreen_triggered',['../classStaticFileAnalyser.html#a3a340332868c6cbf4c9f5311b2d8fbdd',1,'StaticFileAnalyser']]],
+  ['on_5factiongrep_5ffuncitonality_5ftriggered_43',['on_actionGREP_Funcitonality_triggered',['../classStaticFileAnalyser.html#a40427533fbb26008733b28bf822d91c5',1,'StaticFileAnalyser']]],
+  ['on_5factionhex_5fview_5ftriggered_44',['on_actionHex_View_triggered',['../classStaticFileAnalyser.html#abb170017e57dbfb51364681a799572a3',1,'StaticFileAnalyser']]],
+  ['on_5factionmachine_5fview_5ftriggered_45',['on_actionMachine_View_triggered',['../classStaticFileAnalyser.html#acd8d3662f4debd04a64d29e51e9306d0',1,'StaticFileAnalyser']]],
+  ['on_5factionmaximise_5ftriggered_46',['on_actionMaximise_triggered',['../classStaticFileAnalyser.html#a80c3b82cfceabf7ebf312cabfde6c3f9',1,'StaticFileAnalyser']]],
+  ['on_5factionminimise_5ftriggered_47',['on_actionMinimise_triggered',['../classStaticFileAnalyser.html#ab5e5b742ad79fd94dc0a0690dc9b9168',1,'StaticFileAnalyser']]],
+  ['on_5factionopen_5ftriggered_48',['on_actionOpen_triggered',['../classStaticFileAnalyser.html#a846894d1a474873bc76429ed44aa336e',1,'StaticFileAnalyser']]],
+  ['on_5factionrestore_5ftriggered_49',['on_actionRestore_triggered',['../classStaticFileAnalyser.html#a0d61a39a09957c8d6f4eed1cdd5acb92',1,'StaticFileAnalyser']]],
+  ['on_5factionsave_5fand_5fexit_5ftriggered_50',['on_actionSave_and_Exit_triggered',['../classStaticFileAnalyser.html#ad6810daf6f98ec283c71e41833110d5f',1,'StaticFileAnalyser']]],
+  ['on_5factionsave_5ftriggered_51',['on_actionSave_triggered',['../classStaticFileAnalyser.html#a4fda89806d06ec02a7ec8d0db87a8c94',1,'StaticFileAnalyser']]],
+  ['on_5factionstrings_5fview_5ftriggered_52',['on_actionStrings_View_triggered',['../classStaticFileAnalyser.html#abbb4adaf562e9b3587d62a2cf2142bf8',1,'StaticFileAnalyser']]]
+];

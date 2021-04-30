@@ -1,0 +1,434 @@
+\hypertarget{classStaticFileAnalyser}{}\doxysection{Static\+File\+Analyser Class Reference}
+\label{classStaticFileAnalyser}\index{StaticFileAnalyser@{StaticFileAnalyser}}
+
+
+{\ttfamily \#include $<$staticfileanalyser.\+h$>$}
+
+
+
+Inheritance diagram for Static\+File\+Analyser\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{classStaticFileAnalyser__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Static\+File\+Analyser\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{classStaticFileAnalyser__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classStaticFileAnalyser_acaf74718f26ce7a598dfa8afd84541c6}{Static\+File\+Analyser}} (Q\+Widget $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{classStaticFileAnalyser_a01313cf2a246293e2a0fb5cb8c789b3c}{$\sim$\+Static\+File\+Analyser}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classStaticFileAnalyser_ab5e5b742ad79fd94dc0a0690dc9b9168}{on\+\_\+action\+Minimise\+\_\+triggered}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+action\+Minimise\+\_\+triggered This function is what gets called when the user presses the minimise option from the Window menu in the toolbar. This function minimises the application to the toolbar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStaticFileAnalyser_ad6810daf6f98ec283c71e41833110d5f}{on\+\_\+action\+Save\+\_\+and\+\_\+\+Exit\+\_\+triggered}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+action\+Save\+\_\+and\+\_\+\+Exit\+\_\+triggered This function is what gets called when the user presses the save and exit option from the Exit menu in the toolbar. This function will prompt the user for a name to save the file under if there is no file open and will save it automatically using the correct extension if there is a file open. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStaticFileAnalyser_adbf3dda1833b06d0cf2106e886daf023}{on\+\_\+action\+Discard\+\_\+changes\+\_\+and\+\_\+\+Exit\+\_\+triggered}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+action\+Discard\+\_\+changes\+\_\+and\+\_\+\+Exit\+\_\+triggered This function is what gets called when the user presses the discard changes and exit option from the Exit menu in the toolbar. This function will prompt the user to confirm that they wish to discard changes before cleaning up and exiting. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStaticFileAnalyser_a80c3b82cfceabf7ebf312cabfde6c3f9}{on\+\_\+action\+Maximise\+\_\+triggered}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+action\+Maximise\+\_\+triggered This function is what gets called when the user presses the maximise option from the Exit menu in the toolbar. This function will resize and reposition this window to take up the maximum resolution without concealing the operating system toolbar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStaticFileAnalyser_a0d61a39a09957c8d6f4eed1cdd5acb92}{on\+\_\+action\+Restore\+\_\+triggered}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+action\+Restore\+\_\+triggered This function is what gets called when the user presses the restore option from the Window menu in the toolbar. This function will resize the window to the original size and position it was before modifications were made to it\textquotesingle{}s properties. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStaticFileAnalyser_a3a340332868c6cbf4c9f5311b2d8fbdd}{on\+\_\+action\+Fullscreen\+\_\+triggered}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+action\+Fullscreen\+\_\+triggered This function is what gets called when the user presses the fullscreen option from the Window menu in the toolbar. This function will put the window into fullscreen mode \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStaticFileAnalyser_a846894d1a474873bc76429ed44aa336e}{on\+\_\+action\+Open\+\_\+triggered}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+action\+Open\+\_\+triggered This function is what gets called when the user presses the open option from the File menu in the toolbar. This function prompts the user to supply a file to be opened. If the file is of the incorrect type, the application will inform the user and reprompt them to pick a valid file type. It will then change the window title to reflect that file path. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStaticFileAnalyser_a40427533fbb26008733b28bf822d91c5}{on\+\_\+action\+G\+R\+E\+P\+\_\+\+Funcitonality\+\_\+triggered}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+action\+G\+R\+E\+P\+\_\+\+Funcitonality\+\_\+triggered This function is what gets called when the user presses the G\+R\+EP functionality option from the Search menu in the toolbar. This function will prompt the user to enter in a regular expression to search from the text in the window. It will then highlight any matches found in Green and change the font colour to Black. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStaticFileAnalyser_a4fda89806d06ec02a7ec8d0db87a8c94}{on\+\_\+action\+Save\+\_\+triggered}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+action\+Save\+\_\+triggered This function is what gets called when the user presses the Save option from the File menu in the toolbar. This function will prompt the user to enter in a filename and will append the appropriate extension and save the current contents of the window to that file. If a file is already opened it will automatically save it to the opened file name with the appropriate extension. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStaticFileAnalyser_af8a2dbbaa5f85edceeba6ea91860a42c}{on\+\_\+action\+Ascii\+\_\+\+View\+\_\+triggered}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+action\+Ascii\+\_\+\+View\+\_\+triggered This function is what gets called when the user presses the ascii view option from the View menu in the toolbar. This function will display the opened file in A\+S\+C\+II format on the current window. If a file is not opened then it will inform the user to open a file first. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStaticFileAnalyser_a3b8ace440c1487cd75c71fbb80ca6c9d}{on\+\_\+action\+Binary\+\_\+\+View\+\_\+triggered}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+action\+Binary\+\_\+\+View\+\_\+triggered This function is what gets called when the user presses the binary view option from the View menu in the toolbar. This function will display the opened file in raw binary format on the current window. If a file is not opened then it will inform the user to open a file first. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStaticFileAnalyser_a97d0264a642e7237504013de601b030a}{on\+\_\+action\+Disassembled\+\_\+\+View\+\_\+triggered}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+action\+Disassembled\+\_\+\+View\+\_\+triggered This function is what gets called when the user presses the disassembled view option from the View menu in the toolbar. This function will display the opened file in disassembled format on the current window. If a file is not opened then it will inform the user to open a file first. This function is not working correctly yet. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStaticFileAnalyser_a13f587e995ff21152a09382d732c6ed0}{on\+\_\+action\+File\+\_\+\+Properties\+\_\+triggered}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+action\+File\+\_\+\+Properties\+\_\+triggered This function is what gets called when the user presses the file properties option from the View menu in the toolbar. This function will display the opened file properties (size, type and entropy) on the current window. If a file is not opened then it will inform the user to open a file first. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStaticFileAnalyser_acd8d3662f4debd04a64d29e51e9306d0}{on\+\_\+action\+Machine\+\_\+\+View\+\_\+triggered}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+action\+Machine\+\_\+\+View\+\_\+triggered This function is an artefact that Qt requires due to the earlier version of this UI. This function was replaced with a hexadecimal view. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStaticFileAnalyser_abbb4adaf562e9b3587d62a2cf2142bf8}{on\+\_\+action\+Strings\+\_\+\+View\+\_\+triggered}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+action\+Strings\+\_\+\+View\+\_\+triggered This function is what gets called when the user presses the strings view option from the View menu in the toolbar. This function will display any strings from the opened file on the current window. If a file is not opened then it will inform the user to open a file first. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStaticFileAnalyser_a57e762049731c8f3f3bc802db73b51a0}{on\+\_\+action\+Close\+\_\+triggered}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+action\+Close\+\_\+triggered This function is what gets called when the user presses the ascii view option from the View menu in the toolbar. This function will prompt the user to save their changes and run through the saving procedure if they click yes. It will then close the file and clean up. The initial state of the application is restored. If a file is not opened then it will inform the user to open a file first. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStaticFileAnalyser_a396bdec7a0dd9e5c66e17f5e434768ff}{on\+\_\+action\+Enable\+\_\+\+Editing\+\_\+toggled}} (bool arg1)
+\begin{DoxyCompactList}\small\item\em on\+\_\+action\+Enable\+\_\+\+Editing\+\_\+toggled This function is what gets called when the user presses the enable editing option from the Edit menu in the toolbar. This function will enable the text browser widget or disable it depending on the current state of that widget. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classStaticFileAnalyser_abb170017e57dbfb51364681a799572a3}{on\+\_\+action\+Hex\+\_\+\+View\+\_\+triggered}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+action\+Hex\+\_\+\+View\+\_\+triggered This function is what gets called when the user presses the hex view option from the View menu in the toolbar. This function will display the opened file in hexadecimal format on the current window. If a file is not opened then it will inform the user to open a file first. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ui\+::\+Static\+File\+Analyser $\ast$ \mbox{\hyperlink{classStaticFileAnalyser_a540a49d440012ed47cf954c992d00a58}{ui}}
+\begin{DoxyCompactList}\small\item\em ui This paramter is what loads in the layout of the user interface. \end{DoxyCompactList}\item 
+Q\+String \mbox{\hyperlink{classStaticFileAnalyser_af5edad41084452b2274f70b7403671be}{current\+File\+Name}} = \char`\"{}New File\char`\"{}
+\begin{DoxyCompactList}\small\item\em current\+File\+Name This instance variable stores the name of the currently opened file name \end{DoxyCompactList}\item 
+Q\+String \mbox{\hyperlink{classStaticFileAnalyser_aeaf4953ca8f806807211299a2571240d}{current\+File\+Extension}} = \char`\"{}.asm\char`\"{}
+\begin{DoxyCompactList}\small\item\em current\+File\+Extension This stores the current extension that should be used if the user wishes to save the file at that point in time. \end{DoxyCompactList}\item 
+Q\+File \mbox{\hyperlink{classStaticFileAnalyser_a958ca6a2db47eed6260e9809382f9291}{opened\+File}}
+\begin{DoxyCompactList}\small\item\em opened\+File This instance variable stores the handle to the currently opened file. \end{DoxyCompactList}\item 
+Q\+String \mbox{\hyperlink{classStaticFileAnalyser_aa21965f3ba55ebcf33a48389cb48ce00}{opened\+File\+Type}}
+\begin{DoxyCompactList}\small\item\em opened\+File\+Type This instance variable stores the current type of file opened in the application (Portable Executable binary or Executable and Linkable Format binary). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classStaticFileAnalyser_acaf74718f26ce7a598dfa8afd84541c6}\label{classStaticFileAnalyser_acaf74718f26ce7a598dfa8afd84541c6}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!StaticFileAnalyser@{StaticFileAnalyser}}
+\index{StaticFileAnalyser@{StaticFileAnalyser}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{StaticFileAnalyser()}{StaticFileAnalyser()}}
+{\footnotesize\ttfamily Static\+File\+Analyser\+::\+Static\+File\+Analyser (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})}
+
+Constructor that creates the application window
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & This is automatically generated by Qt on creation of the project. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStaticFileAnalyser_a01313cf2a246293e2a0fb5cb8c789b3c}\label{classStaticFileAnalyser_a01313cf2a246293e2a0fb5cb8c789b3c}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!````~StaticFileAnalyser@{$\sim$StaticFileAnalyser}}
+\index{````~StaticFileAnalyser@{$\sim$StaticFileAnalyser}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{$\sim$StaticFileAnalyser()}{~StaticFileAnalyser()}}
+{\footnotesize\ttfamily Static\+File\+Analyser\+::$\sim$\+Static\+File\+Analyser (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classStaticFileAnalyser_af8a2dbbaa5f85edceeba6ea91860a42c}\label{classStaticFileAnalyser_af8a2dbbaa5f85edceeba6ea91860a42c}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!on\_actionAscii\_View\_triggered@{on\_actionAscii\_View\_triggered}}
+\index{on\_actionAscii\_View\_triggered@{on\_actionAscii\_View\_triggered}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{on\_actionAscii\_View\_triggered}{on\_actionAscii\_View\_triggered}}
+{\footnotesize\ttfamily void Static\+File\+Analyser\+::on\+\_\+action\+Ascii\+\_\+\+View\+\_\+triggered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+action\+Ascii\+\_\+\+View\+\_\+triggered This function is what gets called when the user presses the ascii view option from the View menu in the toolbar. This function will display the opened file in A\+S\+C\+II format on the current window. If a file is not opened then it will inform the user to open a file first. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStaticFileAnalyser_a3b8ace440c1487cd75c71fbb80ca6c9d}\label{classStaticFileAnalyser_a3b8ace440c1487cd75c71fbb80ca6c9d}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!on\_actionBinary\_View\_triggered@{on\_actionBinary\_View\_triggered}}
+\index{on\_actionBinary\_View\_triggered@{on\_actionBinary\_View\_triggered}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{on\_actionBinary\_View\_triggered}{on\_actionBinary\_View\_triggered}}
+{\footnotesize\ttfamily void Static\+File\+Analyser\+::on\+\_\+action\+Binary\+\_\+\+View\+\_\+triggered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+action\+Binary\+\_\+\+View\+\_\+triggered This function is what gets called when the user presses the binary view option from the View menu in the toolbar. This function will display the opened file in raw binary format on the current window. If a file is not opened then it will inform the user to open a file first. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStaticFileAnalyser_a57e762049731c8f3f3bc802db73b51a0}\label{classStaticFileAnalyser_a57e762049731c8f3f3bc802db73b51a0}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!on\_actionClose\_triggered@{on\_actionClose\_triggered}}
+\index{on\_actionClose\_triggered@{on\_actionClose\_triggered}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{on\_actionClose\_triggered}{on\_actionClose\_triggered}}
+{\footnotesize\ttfamily void Static\+File\+Analyser\+::on\+\_\+action\+Close\+\_\+triggered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+action\+Close\+\_\+triggered This function is what gets called when the user presses the ascii view option from the View menu in the toolbar. This function will prompt the user to save their changes and run through the saving procedure if they click yes. It will then close the file and clean up. The initial state of the application is restored. If a file is not opened then it will inform the user to open a file first. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStaticFileAnalyser_a97d0264a642e7237504013de601b030a}\label{classStaticFileAnalyser_a97d0264a642e7237504013de601b030a}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!on\_actionDisassembled\_View\_triggered@{on\_actionDisassembled\_View\_triggered}}
+\index{on\_actionDisassembled\_View\_triggered@{on\_actionDisassembled\_View\_triggered}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{on\_actionDisassembled\_View\_triggered}{on\_actionDisassembled\_View\_triggered}}
+{\footnotesize\ttfamily void Static\+File\+Analyser\+::on\+\_\+action\+Disassembled\+\_\+\+View\+\_\+triggered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+action\+Disassembled\+\_\+\+View\+\_\+triggered This function is what gets called when the user presses the disassembled view option from the View menu in the toolbar. This function will display the opened file in disassembled format on the current window. If a file is not opened then it will inform the user to open a file first. This function is not working correctly yet. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStaticFileAnalyser_adbf3dda1833b06d0cf2106e886daf023}\label{classStaticFileAnalyser_adbf3dda1833b06d0cf2106e886daf023}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!on\_actionDiscard\_changes\_and\_Exit\_triggered@{on\_actionDiscard\_changes\_and\_Exit\_triggered}}
+\index{on\_actionDiscard\_changes\_and\_Exit\_triggered@{on\_actionDiscard\_changes\_and\_Exit\_triggered}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{on\_actionDiscard\_changes\_and\_Exit\_triggered}{on\_actionDiscard\_changes\_and\_Exit\_triggered}}
+{\footnotesize\ttfamily void Static\+File\+Analyser\+::on\+\_\+action\+Discard\+\_\+changes\+\_\+and\+\_\+\+Exit\+\_\+triggered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+action\+Discard\+\_\+changes\+\_\+and\+\_\+\+Exit\+\_\+triggered This function is what gets called when the user presses the discard changes and exit option from the Exit menu in the toolbar. This function will prompt the user to confirm that they wish to discard changes before cleaning up and exiting. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStaticFileAnalyser_a396bdec7a0dd9e5c66e17f5e434768ff}\label{classStaticFileAnalyser_a396bdec7a0dd9e5c66e17f5e434768ff}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!on\_actionEnable\_Editing\_toggled@{on\_actionEnable\_Editing\_toggled}}
+\index{on\_actionEnable\_Editing\_toggled@{on\_actionEnable\_Editing\_toggled}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{on\_actionEnable\_Editing\_toggled}{on\_actionEnable\_Editing\_toggled}}
+{\footnotesize\ttfamily void Static\+File\+Analyser\+::on\+\_\+action\+Enable\+\_\+\+Editing\+\_\+toggled (\begin{DoxyParamCaption}\item[{bool}]{arg1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+action\+Enable\+\_\+\+Editing\+\_\+toggled This function is what gets called when the user presses the enable editing option from the Edit menu in the toolbar. This function will enable the text browser widget or disable it depending on the current state of that widget. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arg1} & This parameter is the current state of the checkbox, true for enabled and false for disabled. \\
+\hline
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStaticFileAnalyser_a13f587e995ff21152a09382d732c6ed0}\label{classStaticFileAnalyser_a13f587e995ff21152a09382d732c6ed0}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!on\_actionFile\_Properties\_triggered@{on\_actionFile\_Properties\_triggered}}
+\index{on\_actionFile\_Properties\_triggered@{on\_actionFile\_Properties\_triggered}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{on\_actionFile\_Properties\_triggered}{on\_actionFile\_Properties\_triggered}}
+{\footnotesize\ttfamily void Static\+File\+Analyser\+::on\+\_\+action\+File\+\_\+\+Properties\+\_\+triggered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+action\+File\+\_\+\+Properties\+\_\+triggered This function is what gets called when the user presses the file properties option from the View menu in the toolbar. This function will display the opened file properties (size, type and entropy) on the current window. If a file is not opened then it will inform the user to open a file first. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStaticFileAnalyser_a3a340332868c6cbf4c9f5311b2d8fbdd}\label{classStaticFileAnalyser_a3a340332868c6cbf4c9f5311b2d8fbdd}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!on\_actionFullscreen\_triggered@{on\_actionFullscreen\_triggered}}
+\index{on\_actionFullscreen\_triggered@{on\_actionFullscreen\_triggered}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{on\_actionFullscreen\_triggered}{on\_actionFullscreen\_triggered}}
+{\footnotesize\ttfamily void Static\+File\+Analyser\+::on\+\_\+action\+Fullscreen\+\_\+triggered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+action\+Fullscreen\+\_\+triggered This function is what gets called when the user presses the fullscreen option from the Window menu in the toolbar. This function will put the window into fullscreen mode 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStaticFileAnalyser_a40427533fbb26008733b28bf822d91c5}\label{classStaticFileAnalyser_a40427533fbb26008733b28bf822d91c5}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!on\_actionGREP\_Funcitonality\_triggered@{on\_actionGREP\_Funcitonality\_triggered}}
+\index{on\_actionGREP\_Funcitonality\_triggered@{on\_actionGREP\_Funcitonality\_triggered}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{on\_actionGREP\_Funcitonality\_triggered}{on\_actionGREP\_Funcitonality\_triggered}}
+{\footnotesize\ttfamily void Static\+File\+Analyser\+::on\+\_\+action\+G\+R\+E\+P\+\_\+\+Funcitonality\+\_\+triggered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+action\+G\+R\+E\+P\+\_\+\+Funcitonality\+\_\+triggered This function is what gets called when the user presses the G\+R\+EP functionality option from the Search menu in the toolbar. This function will prompt the user to enter in a regular expression to search from the text in the window. It will then highlight any matches found in Green and change the font colour to Black. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStaticFileAnalyser_abb170017e57dbfb51364681a799572a3}\label{classStaticFileAnalyser_abb170017e57dbfb51364681a799572a3}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!on\_actionHex\_View\_triggered@{on\_actionHex\_View\_triggered}}
+\index{on\_actionHex\_View\_triggered@{on\_actionHex\_View\_triggered}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{on\_actionHex\_View\_triggered}{on\_actionHex\_View\_triggered}}
+{\footnotesize\ttfamily void Static\+File\+Analyser\+::on\+\_\+action\+Hex\+\_\+\+View\+\_\+triggered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+action\+Hex\+\_\+\+View\+\_\+triggered This function is what gets called when the user presses the hex view option from the View menu in the toolbar. This function will display the opened file in hexadecimal format on the current window. If a file is not opened then it will inform the user to open a file first. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStaticFileAnalyser_acd8d3662f4debd04a64d29e51e9306d0}\label{classStaticFileAnalyser_acd8d3662f4debd04a64d29e51e9306d0}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!on\_actionMachine\_View\_triggered@{on\_actionMachine\_View\_triggered}}
+\index{on\_actionMachine\_View\_triggered@{on\_actionMachine\_View\_triggered}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{on\_actionMachine\_View\_triggered}{on\_actionMachine\_View\_triggered}}
+{\footnotesize\ttfamily void Static\+File\+Analyser\+::on\+\_\+action\+Machine\+\_\+\+View\+\_\+triggered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+action\+Machine\+\_\+\+View\+\_\+triggered This function is an artefact that Qt requires due to the earlier version of this UI. This function was replaced with a hexadecimal view. 
+
+\mbox{\Hypertarget{classStaticFileAnalyser_a80c3b82cfceabf7ebf312cabfde6c3f9}\label{classStaticFileAnalyser_a80c3b82cfceabf7ebf312cabfde6c3f9}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!on\_actionMaximise\_triggered@{on\_actionMaximise\_triggered}}
+\index{on\_actionMaximise\_triggered@{on\_actionMaximise\_triggered}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{on\_actionMaximise\_triggered}{on\_actionMaximise\_triggered}}
+{\footnotesize\ttfamily void Static\+File\+Analyser\+::on\+\_\+action\+Maximise\+\_\+triggered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+action\+Maximise\+\_\+triggered This function is what gets called when the user presses the maximise option from the Exit menu in the toolbar. This function will resize and reposition this window to take up the maximum resolution without concealing the operating system toolbar. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStaticFileAnalyser_ab5e5b742ad79fd94dc0a0690dc9b9168}\label{classStaticFileAnalyser_ab5e5b742ad79fd94dc0a0690dc9b9168}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!on\_actionMinimise\_triggered@{on\_actionMinimise\_triggered}}
+\index{on\_actionMinimise\_triggered@{on\_actionMinimise\_triggered}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{on\_actionMinimise\_triggered}{on\_actionMinimise\_triggered}}
+{\footnotesize\ttfamily void Static\+File\+Analyser\+::on\+\_\+action\+Minimise\+\_\+triggered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+action\+Minimise\+\_\+triggered This function is what gets called when the user presses the minimise option from the Window menu in the toolbar. This function minimises the application to the toolbar. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStaticFileAnalyser_a846894d1a474873bc76429ed44aa336e}\label{classStaticFileAnalyser_a846894d1a474873bc76429ed44aa336e}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!on\_actionOpen\_triggered@{on\_actionOpen\_triggered}}
+\index{on\_actionOpen\_triggered@{on\_actionOpen\_triggered}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{on\_actionOpen\_triggered}{on\_actionOpen\_triggered}}
+{\footnotesize\ttfamily void Static\+File\+Analyser\+::on\+\_\+action\+Open\+\_\+triggered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+action\+Open\+\_\+triggered This function is what gets called when the user presses the open option from the File menu in the toolbar. This function prompts the user to supply a file to be opened. If the file is of the incorrect type, the application will inform the user and reprompt them to pick a valid file type. It will then change the window title to reflect that file path. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStaticFileAnalyser_a0d61a39a09957c8d6f4eed1cdd5acb92}\label{classStaticFileAnalyser_a0d61a39a09957c8d6f4eed1cdd5acb92}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!on\_actionRestore\_triggered@{on\_actionRestore\_triggered}}
+\index{on\_actionRestore\_triggered@{on\_actionRestore\_triggered}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{on\_actionRestore\_triggered}{on\_actionRestore\_triggered}}
+{\footnotesize\ttfamily void Static\+File\+Analyser\+::on\+\_\+action\+Restore\+\_\+triggered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+action\+Restore\+\_\+triggered This function is what gets called when the user presses the restore option from the Window menu in the toolbar. This function will resize the window to the original size and position it was before modifications were made to it\textquotesingle{}s properties. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStaticFileAnalyser_ad6810daf6f98ec283c71e41833110d5f}\label{classStaticFileAnalyser_ad6810daf6f98ec283c71e41833110d5f}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!on\_actionSave\_and\_Exit\_triggered@{on\_actionSave\_and\_Exit\_triggered}}
+\index{on\_actionSave\_and\_Exit\_triggered@{on\_actionSave\_and\_Exit\_triggered}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{on\_actionSave\_and\_Exit\_triggered}{on\_actionSave\_and\_Exit\_triggered}}
+{\footnotesize\ttfamily void Static\+File\+Analyser\+::on\+\_\+action\+Save\+\_\+and\+\_\+\+Exit\+\_\+triggered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+action\+Save\+\_\+and\+\_\+\+Exit\+\_\+triggered This function is what gets called when the user presses the save and exit option from the Exit menu in the toolbar. This function will prompt the user for a name to save the file under if there is no file open and will save it automatically using the correct extension if there is a file open. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStaticFileAnalyser_a4fda89806d06ec02a7ec8d0db87a8c94}\label{classStaticFileAnalyser_a4fda89806d06ec02a7ec8d0db87a8c94}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!on\_actionSave\_triggered@{on\_actionSave\_triggered}}
+\index{on\_actionSave\_triggered@{on\_actionSave\_triggered}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{on\_actionSave\_triggered}{on\_actionSave\_triggered}}
+{\footnotesize\ttfamily void Static\+File\+Analyser\+::on\+\_\+action\+Save\+\_\+triggered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+action\+Save\+\_\+triggered This function is what gets called when the user presses the Save option from the File menu in the toolbar. This function will prompt the user to enter in a filename and will append the appropriate extension and save the current contents of the window to that file. If a file is already opened it will automatically save it to the opened file name with the appropriate extension. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStaticFileAnalyser_abbb4adaf562e9b3587d62a2cf2142bf8}\label{classStaticFileAnalyser_abbb4adaf562e9b3587d62a2cf2142bf8}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!on\_actionStrings\_View\_triggered@{on\_actionStrings\_View\_triggered}}
+\index{on\_actionStrings\_View\_triggered@{on\_actionStrings\_View\_triggered}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{on\_actionStrings\_View\_triggered}{on\_actionStrings\_View\_triggered}}
+{\footnotesize\ttfamily void Static\+File\+Analyser\+::on\+\_\+action\+Strings\+\_\+\+View\+\_\+triggered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+action\+Strings\+\_\+\+View\+\_\+triggered This function is what gets called when the user presses the strings view option from the View menu in the toolbar. This function will display any strings from the opened file on the current window. If a file is not opened then it will inform the user to open a file first. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classStaticFileAnalyser_aeaf4953ca8f806807211299a2571240d}\label{classStaticFileAnalyser_aeaf4953ca8f806807211299a2571240d}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!currentFileExtension@{currentFileExtension}}
+\index{currentFileExtension@{currentFileExtension}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{currentFileExtension}{currentFileExtension}}
+{\footnotesize\ttfamily Q\+String Static\+File\+Analyser\+::current\+File\+Extension = \char`\"{}.asm\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+current\+File\+Extension This stores the current extension that should be used if the user wishes to save the file at that point in time. 
+
+\mbox{\Hypertarget{classStaticFileAnalyser_af5edad41084452b2274f70b7403671be}\label{classStaticFileAnalyser_af5edad41084452b2274f70b7403671be}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!currentFileName@{currentFileName}}
+\index{currentFileName@{currentFileName}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{currentFileName}{currentFileName}}
+{\footnotesize\ttfamily Q\+String Static\+File\+Analyser\+::current\+File\+Name = \char`\"{}New File\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+current\+File\+Name This instance variable stores the name of the currently opened file name 
+
+\mbox{\Hypertarget{classStaticFileAnalyser_a958ca6a2db47eed6260e9809382f9291}\label{classStaticFileAnalyser_a958ca6a2db47eed6260e9809382f9291}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!openedFile@{openedFile}}
+\index{openedFile@{openedFile}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{openedFile}{openedFile}}
+{\footnotesize\ttfamily Q\+File Static\+File\+Analyser\+::opened\+File\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+opened\+File This instance variable stores the handle to the currently opened file. 
+
+\mbox{\Hypertarget{classStaticFileAnalyser_aa21965f3ba55ebcf33a48389cb48ce00}\label{classStaticFileAnalyser_aa21965f3ba55ebcf33a48389cb48ce00}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!openedFileType@{openedFileType}}
+\index{openedFileType@{openedFileType}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{openedFileType}{openedFileType}}
+{\footnotesize\ttfamily Q\+String Static\+File\+Analyser\+::opened\+File\+Type\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+opened\+File\+Type This instance variable stores the current type of file opened in the application (Portable Executable binary or Executable and Linkable Format binary). 
+
+\mbox{\Hypertarget{classStaticFileAnalyser_a540a49d440012ed47cf954c992d00a58}\label{classStaticFileAnalyser_a540a49d440012ed47cf954c992d00a58}} 
+\index{StaticFileAnalyser@{StaticFileAnalyser}!ui@{ui}}
+\index{ui@{ui}!StaticFileAnalyser@{StaticFileAnalyser}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Static\+File\+Analyser$\ast$ Static\+File\+Analyser\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+ui This paramter is what loads in the layout of the user interface. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{staticfileanalyser_8h}{staticfileanalyser.\+h}}\item 
+\mbox{\hyperlink{staticfileanalyser_8cpp}{staticfileanalyser.\+cpp}}\end{DoxyCompactItemize}
